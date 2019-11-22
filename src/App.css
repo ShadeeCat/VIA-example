@@ -1,0 +1,12 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header label {
+  position: relative;
+}
+header label input {
+  position: absolute;
+  right: 0.5rem;
+}
