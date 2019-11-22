@@ -1,12 +1,30 @@
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 header label {
-  position: relative;
+	position: relative;
+	display: flex;
+
 }
-header label input {
-  position: absolute;
-  right: 0.5rem;
+header label span {
+	position: absolute;
+	right: 0.5rem;
+}
+.contact_data {
+	overflow-y: hidden;
+	max-height: 0;
+	animation: slideDown 1s forwards;
+}
+p {
+	margin: 0;
+}
+@keyframes slideDown{
+  from {
+    max-height: 0;
+  }
+  to {
+    max-height: 100px;
+  }
 }
