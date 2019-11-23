@@ -1,82 +1,82 @@
 [
 	{
 		"id": 1,
-		"name": "alex",
-		"rank": "master",
-		"phone": "123 123 123",
-		"email": "assad@asfsdf.com",
+		"name": "Alex Sa",
+		"rank": "professional",
+		"phone": "123 123 1236",
+		"email": "asddfg@asfsdf.com",
 		"main_pic": "driver_1.jpg" 
 	},
 	{
 		"id": 2,
-		"name": "alex",
-		"rank": "master",
-		"phone": "123 123 123",
-		"email": "assad@asfsdf.com",
+		"name": "Shay Sas",
+		"rank": "citizen",
+		"phone": "123 123 1236",
+		"email": "asddfg@asfsdf.com",
 		"main_pic": "driver_2.jpg" 
 	},
 	{
 		"id": 3,
-		"name": "alex",
-		"rank": "master",
-		"phone": "123 123 123",
-		"email": "assad@asfsdf.com",
+		"name": "Victor Ser",
+		"rank": "professional",
+		"phone": "123 123 1236",
+		"email": "asddfg@asfsdf.com",
 		"main_pic": "driver_4.jpg" 
 	},
 	{
 		"id": 4,
-		"name": "alex",
-		"rank": "master",
-		"phone": "123 123 123",
-		"email": "assad@asfsdf.com",
+		"name": "Nitzan nmn",
+		"rank": "citizen",
+		"phone": "123 123 1236",
+		"email": "asddfg@asfsdf.com",
 		"main_pic": "driver_6.jpg" 
 	},
 	{
 		"id": 5,
 		"name": "alex",
-		"rank": "master",
-		"phone": "123 123 123",
-		"email": "assad@asfsdf.com",
+		"rank": "professional",
+		"phone": "123 123 1236",
+		"email": "asddfg@asfsdf.com",
 		"main_pic": "driver_8.jpg" 
 	},
 	{
 		"id": 6,
 		"name": "alex",
-		"rank": "master",
-		"phone": "123 123 123",
-		"email": "assad@asfsdf.com",
+		"rank": "citizen",
+		"phone": "123 123 1236",
+		"email": "asddfg@asfsdf.com",
 		"main_pic": "driver_10.jpg" 
 	},
 	{
 		"id": 7,
 		"name": "alex",
-		"rank": "master",
-		"phone": "123 123 123",
-		"email": "assad@asfsdf.com",
+		"rank": "professional",
+		"phone": "123 123 1236",
+		"email": "asddfg@asfsdf.com",
 		"main_pic": "driver_3.jpg" 
 	},
 	{
 		"id": 8,
 		"name": "alex",
-		"rank": "master",
-		"phone": "123 123 123",
-		"email": "assad@asfsdf.com",
+		"rank": "professional",
+		"phone": "123 123 1236",
+		"email": "asddfg@asfsdf.com",
 		"main_pic": "driver_5.jpg" 
 	},
 	{
 		"id": 9,
 		"name": "alex",
-		"rank": "master",
-		"phone": "123 123 123",
-		"email": "assad@asfsdf.com",
+		"rank": "citizen",
+		"phone": "123 123 1236",
+		"email": "asddfg@asfsdf.com",
 		"main_pic": "driver_7.jpg" 
 	},
 	{
 		"id": 10,
 		"name": "alex",
-		"rank": "master",
-		"phone": "123 123 123",
-		"email": "assad@asfsdf.com",
+		"rank": "professional",
+		"phone": "123 123 1236",
+		"email": "asddfg@asfsdf.com",
 		"main_pic": "driver_9.jpg" 
 	}
 ]

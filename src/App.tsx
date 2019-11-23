@@ -1,6 +1,5 @@
 import React from 'react';
 import { Main } from "./components/Main"
-import logo from './logo.svg';
 import './App.css';
 
 const App: React.FC = () => {
@@ -12,9 +11,7 @@ const App: React.FC = () => {
           <span>🔍</span>
         </label>
       </header>
-      <main>
-         <Main />
-      </main>
+       <Main />  
     </>
     
   );

@@ -6,16 +6,14 @@ interface Driver {
 	rank: string,
 	phone: string,
 	email: string,
-	main_pic: string,
+	main_pic: string
 }
 interface MainState { 
 	driverList: Driver[],
-	isHover: boolean 
 }
 export class Main extends React.Component<{}, MainState > {
 	state: MainState = {
-		driverList: [],
-		isHover: false
+		driverList: []
 	}
 	
 	componentDidMount() {
@@ -26,14 +24,13 @@ export class Main extends React.Component<{}, MainState > {
 		})
 	}
 
-
 	render() {
 		return <main>
-		{
+		<div className="drivers_list">{
 			this.state.driverList.map(
-				driver => <DriverComponent data={driver} />
+				driver => <DriverComponent data={driver} key={driver.id} />
 			)
-		}
+		}</div>
 		</main>
 	}
 }
@@ -50,25 +47,27 @@ class DriverComponent extends React.Component <DriverComponentProps, {}> {
 		isAnimatedDown: false
 	}
 	onMouseEnter = () => {
-		this.setState({isHover: true})
+		this.setState({isAnimatedDown: true, isHover: true})
 	}
 	onMouseLeave = () => {
-		this.setState({isAnimatedDown: true})
+		this.setState({isAnimatedDown: false, isHover: false})
 	}
 	render() {
 		console.log(this.state)
 		const { data: driver } = this.props
 		return	<figure 
 		onMouseEnter={this.onMouseEnter} 
-		onMouseLeave={this.onMouseLeave} >
-			<img src={ 'images/drivers/' + driver.main_pic } alt="" />
+		onMouseLeave={this.onMouseLeave} 
+		className={"contact_data" +  (this.state.isAnimatedDown ? " isAnimatedDown" : "")}>
+			<div className={'figure-container ' + ((driver.rank === 'citizen') ? 'citizen' : 'professional')} >
+				<img src={ 'images/drivers/' + driver.main_pic } alt="" />
+			</div>
 			<figcaption>{driver.name}</figcaption>
-			<span>{driver.rank}</span>
+			<p>{driver.rank}</p>
 			{
-				this.state.isHover && <div className={"contact_data" +  (this.state.isAnimatedDown ? " isAnimatedDown" : "")}>
-					<p>{driver.rank}</p>
-					<a href={"tel:{2343}"}>{driver.phone}</a>
-					<a href="mailto: {abc@example.com}">{driver.email}</a>
+				this.state.isHover && <div className="hovers_data">
+					<a href={"tel:" + driver.phone}>{"Phone Number: " + driver.phone}</a>
+					<a href={"mailto:" + driver.email}>{"Email: " + driver.email}</a>
 				</div>
 			}
 		</figure>
