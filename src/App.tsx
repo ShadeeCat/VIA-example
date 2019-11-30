@@ -1,20 +1,25 @@
 import React from 'react';
-import { Main } from "./components/Main"
+
+import { Header } from "./components/Header/Header"
+import { Main } from "./components/Main/Main"
+
 import './App.css';
 
-const App: React.FC = () => {
-  return (  <>
-      <header>
-        <h1>Contact List</h1>
-        <label>
-          <input placeholder="search..." type="search" />
-          <span>🔍</span>
-        </label>
-      </header>
-       <Main />  
-    </>
-    
-  );
+
+class App extends React.Component<{}, {}> {
+	state = {
+		filteredText: ""
+	}
+	search = (searchText) => {
+		this.setState({filteredText: searchText})
+	}
+
+	render() {
+		return <>
+			<Header methodSearch={this.search} />
+			<Main searchHeader={this.state.filteredText} />
+		</>
+	}
 }
 
 export default App;
