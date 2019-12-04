@@ -19,7 +19,7 @@ export class Main extends React.Component<{ searchHeader: string }, MainState > 
 	}
 	
 	componentDidMount() {
-		fetch("./data-api/data.json")
+		fetch("https://api.bewebmaster.co.il/public/via.json")
 		.then(res => res.json())
 		.then(data => {
 			this.setState({ 
