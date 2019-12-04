@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/VIA-example/static/css/main.6142b0ca.chunk.css",
+    "main.js": "/VIA-example/static/js/main.502f2f17.chunk.js",
+    "main.js.map": "/VIA-example/static/js/main.502f2f17.chunk.js.map",
+    "runtime-main.js": "/VIA-example/static/js/runtime-main.6b657626.js",
+    "runtime-main.js.map": "/VIA-example/static/js/runtime-main.6b657626.js.map",
+    "static/js/2.0a11ad4a.chunk.js": "/VIA-example/static/js/2.0a11ad4a.chunk.js",
+    "static/js/2.0a11ad4a.chunk.js.map": "/VIA-example/static/js/2.0a11ad4a.chunk.js.map",
+    "index.html": "/VIA-example/index.html",
+    "precache-manifest.c15c3fe685ffa22ed5fc50f528cfffc1.js": "/VIA-example/precache-manifest.c15c3fe685ffa22ed5fc50f528cfffc1.js",
+    "service-worker.js": "/VIA-example/service-worker.js",
+    "static/css/main.6142b0ca.chunk.css.map": "/VIA-example/static/css/main.6142b0ca.chunk.css.map",
+    "static/media/App.css": "/VIA-example/static/media/professional.b4a7bfaf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6b657626.js",
+    "static/js/2.0a11ad4a.chunk.js",
+    "static/css/main.6142b0ca.chunk.css",
+    "static/js/main.502f2f17.chunk.js"
+  ]
+}
